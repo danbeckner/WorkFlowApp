@@ -1,0 +1,476 @@
+.App {
+  /* text-align: center; */
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.input-group-addon.primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 118, 177);
+  border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+  color: rgb(255, 255, 255);
+  background-color: rgb(92, 184, 92);
+  border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+  color: rgb(255, 255, 255);
+  background-color: rgb(57, 179, 215);
+  border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+  color: rgb(255, 255, 255);
+  background-color: rgb(240, 173, 78);
+  border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+  color: rgb(255, 255, 255);
+  background-color: rgb(217, 83, 79);
+  border-color: rgb(212, 63, 58);
+}
+
+.email-tag-size {
+  width: 118px;
+}
+
+.brand-color {
+  color: rgb(255, 255, 255) !important;
+  font-size: 2rem !important;
+}
+
+.username-color {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.5rem !important;
+}
+
+#icon-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* sidebar */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  /* align-items: stretch; */
+}
+
+a, a:hover, a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar {
+  width: 250px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  /* background: #7386D5; */
+  color: #fff;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+/* Shrinking the sidebar from 250px to 80px and center aligining its content*/
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
+#sidebar .sidebar-header strong {
+  display: none;
+  font-size: 2em;
+}
+#sidebar.active .sidebar-header h3 {
+  display: none;
+}
+#sidebar.active .sidebar-header strong {
+  display: block;
+}
+
+#sidebar ul li a {
+  text-align: left;
+  color: inherit;
+}
+
+.submenu {
+  font-size: 0.85em;
+}
+
+#sidebar.active ul li a {
+  /* padding: 20px 10px; */
+  text-align: center;
+  font-size: 0.85em;
+  display: none;
+  /* color: inherit; */
+}
+
+#sidebar.active .icon-size {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#sidebar.active ul li a i {
+  margin-right:  0;
+  display: block;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+/* Same dropdown links padding*/
+#sidebar.active ul ul a {
+  padding: 10px !important;
+}
+
+/* Changing the arrow position to bottom center position, 
+ translateX(50%) works with right: 50% 
+ to accurately  center the arrow */
+#sidebar.active .dropdown-toggle::after {
+  top: auto;
+  bottom: 10px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+@media (max-width: 768px) {
+  /* 80px and its content aligned to centre. Pushing it off the screen with the
+     negative left margin
+  */
+  #sidebar.active {
+      min-width: 80px;
+      max-width: 80px;
+      text-align: center;
+      margin-left: -80px !important;
+  }
+
+
+  /* Reappearing the sidebar on toggle button click */
+  #sidebar {
+      margin-left: 0; 
+  }
+
+
+  /* Toggling the sidebar header content, 
+     hide the big heading [h3] and showing the small heading [strong] and vice versa
+  */
+  #sidebar .sidebar-header strong {
+      display: none;
+  }
+  #sidebar.active .sidebar-header h3 {
+      display: none;
+  }
+  #sidebar.active .sidebar-header strong {
+      display: block;
+  }
+
+  /* Downsize the navigation links font size */
+  #sidebar.active ul li a {
+      padding: 20px 10px;
+      font-size: 0.85em;
+  }
+
+  #sidebar.active ul li a i {
+      margin-right:  0;
+      display: block;
+      font-size: 1.8em;
+      margin-bottom: 5px;
+  }
+
+  /* Adjust the dropdown links padding*/
+  #sidebar.active ul ul a {
+      padding: 10px !important;
+  }
+
+  /* Changing the arrow position to bottom center position, 
+    translateX(50%) works with right: 50% 
+    to accurately  center the arrow */
+  .dropdown-toggle::after {
+      top: auto;
+      bottom: 10px;
+      right: 50%;
+      -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+      transform: translateX(50%);
+  }
+}
+
+.nav-custom {
+  width: 103% !important;
+  margin-left: -1.2%;
+}
+
+/* Employee dashboard styles */
+
+.container-width {
+  /* width: 100%; */
+  /* margin-left: 20%; */
+}
+
+.cust-nav-row-height {
+  min-height: 10vh;
+  /* width: 100%; */
+}
+
+.cust-dash-height {
+  min-height: 60vh;
+}
+
+#item-text-area {
+  height: 20vh;
+}
+
+.error-alert {
+  color: rgb(212, 63, 58);
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+/* View item component styles */
+
+/* View Inventory */
+.ReactTable .rt-thead {
+  overflow-y: scroll;
+}
+
+.foot-container {
+  /* text-align: center; */
+  position: relative;
+  height: 75px;
+  bottom: 0;
+  /* width: 150px; */
+  /* border: 1px solid red; */
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+}
+
+.foot-graph {
+  margin-top: 3%;
+}
+
+.line {
+  width: 100%;
+}
+
+.component-container {
+  width: 102% !important;
+  margin-left: -1% !important;
+}
+
+.component-header {
+  height: 50px;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.header-content {
+  margin-left: 0.5%;
+  position: relative;
+  top: 20%;
+  display: inline-block;
+  /* left: 50%; */
+}
+
+.ticket-btn {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  top: 20%;
+}
+
+.icon-style {
+  cursor: pointer;
+}
+
+/* Ticket Queue Styles */
+.center {
+  text-align: center;
+}
+
+
+/* Graph Component*/
+
+.graph-dashboard {
+  /* background-color: #EFF2F5; */
+  background-color: #ededed;
+  height: 790px;
+  overflow: auto;
+}
+
+.foot-graph-color {
+  background-color: #ededed;
+}
+.foot-graph-container {
+  /* text-align: center; */
+  position: relative;
+  height: 85px;
+  bottom: 0;
+  /* width: 150px; */
+  /* border: 1px solid red; */
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+.border-yellow {
+  border: 1px solid yellow;
+}
+
+.fake-height {
+  height: 300px;
+}
+
+.graph-border {
+  border: 1px solid black;
+}
+
+#donut {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.data-box-header {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.ticket-metrics {
+  min-width: 25%;
+}
+
+.graph-container {
+  /* background-color: white; */
+  min-width: 40%;
+  /* height: 200px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   */
+}
+.info-container {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.ql-container {
+  min-width: 50%;
+}
+
+.is-container {
+  margin-top: 2%;
+}
+
+.line-margin {
+  margin-top: 7%;
+}
+
+.is-styles {
+  font-size: 13px;
+}
+
+/* Tooltip container */
+
+#quicklink:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.08);
+}
+
+[tooltip]{
+  margin:20px;
+  position:relative;
+  display: inline-block;
+}
+[tooltip]::before {
+    content: "";
+    position: absolute;
+    top:-6px;
+    left:50%;
+    transform: translateX(-50%);
+    border-width: 4px 6px 0 6px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.7) transparent transparent transparent;
+    z-index: 100;
+    visibility: hidden;
+}
+[tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+    left:50%;
+    top:-6px;
+    transform: translateX(-50%)   translateY(-100%);
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    padding:4px 2px;
+    font-size: 12px;
+    min-width: 80px;
+    border-radius: 5px;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+[tooltip-position='right']::before{
+  left:100%;
+  top:50%;
+  margin-left:1px;
+  transform: translateY(-50%) rotate(90deg);
+  visibility: hidden;
+}
+
+[tooltip-position='right']::after{
+  left:100%;
+  top:50%;
+  margin-left:8px;
+  transform: translateX(0%)   translateY(-50%);
+}
+
+[tooltip]:hover::after,[tooltip]:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+} */

@@ -1,0 +1,158 @@
+{/* <div className="container">
+                    <div className="container cust-dash-height">
+                        <h3 className="mt-3">Narrow search by item name or serial number below.</h3>
+                        <div className="input-group input-group-md mt-5">
+                            <input type="text" className="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Item Name" />
+                            <input type="text" className="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Serial Number" />
+                            <button type="button" className="btn btn-outline-success">Search</button>
+                        </div>
+                        <div className="container border mt-5">
+                            <table className="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Item Name</th>
+                                        <th scope="col">Serial Number</th>
+                                        <th scope="col">Location</th>
+                                        <th scope="col">Warranty Exp.</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">13</th>
+                                        <td>Dell Latitude 5285</td>
+                                        <td>L1432345432</td>
+                                        <td>Gate 1</td>
+                                        <td>01/10/2021</td>
+                                        <button type="button" data-toggle="modal" data-target="#openTicketModal" className="btn btn-md btn-outline-warning mt-1">Open Ticket</button>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div className="modal fade" id="openTicketModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div className="modal-dialog modal-dialog-centered" role="document">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h5 className="modal-title" id="openTicketModalTitle">Request Maintenance</h5>
+                                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <div className="modal-lg">
+                                            <div className="input-group input-group-md">
+                                                <input type="text" className="form-control mr-3" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Item Name" />
+                                                <input type="text" className="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Serial Number" />
+                                            </div>
+                                            <div className="input-group input-group-md mt-3">
+                                                <textarea className="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Please describe the issue you are having..."></textarea>
+                                            </div>
+                                        </div>
+                                        <div className="modal-footer">
+                                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" className="btn btn-primary">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}

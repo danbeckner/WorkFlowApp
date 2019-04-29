@@ -1,0 +1,402 @@
+[
+    {
+        itemName: 1,
+        serialNumber: "m2357214",
+        siteId: "345285",
+        installDate: "05/01/2018",
+        warrantyStart: "03/31/2018",
+        warrantyEnd: "06/13/2020"
+    },
+    {
+        itemName: 2,
+        serialNumber: "b4685052",
+        siteId: "793560",
+        installDate: "04/24/2018",
+        warrantyStart: "08/05/2018",
+        warrantyEnd: "12/05/2020"
+    },
+    {
+        itemName: 3,
+        serialNumber: "m5234481",
+        siteId: "452178",
+        installDate: "04/01/2018",
+        warrantyStart: "06/18/2018",
+        warrantyEnd: "10/31/2020"
+    },
+    {
+        itemName: 4,
+        serialNumber: "b5997834",
+        siteId: "041674",
+        installDate: "03/23/2018",
+        warrantyStart: "08/25/2018",
+        warrantyEnd: "11/03/2020"
+    },
+    {
+        itemName: 5,
+        serialNumber: "p0056829",
+        siteId: "757825",
+        installDate: "04/13/2018",
+        warrantyStart: "11/30/2018",
+        warrantyEnd: "05/19/2021"
+    },
+    {
+        itemName: 6,
+        serialNumber: "x2558458",
+        siteId: "767796",
+        installDate: "04/13/2018",
+        warrantyStart: "08/04/2018",
+        warrantyEnd: "12/04/2020"
+    },
+    {
+        itemName: 7,
+        serialNumber: "f8974422",
+        siteId: "842264",
+        installDate: "04/09/2018",
+        warrantyStart: "06/04/2018",
+        warrantyEnd: "03/26/2021"
+    },
+    {
+        itemName: 8,
+        serialNumber: "p9930896",
+        siteId: "764351",
+        installDate: "04/26/2018",
+        warrantyStart: "06/14/2018",
+        warrantyEnd: "11/11/2020"
+    },
+    {
+        itemName: 9,
+        serialNumber: "u2698852",
+        siteId: "434335",
+        installDate: "04/03/2018",
+        warrantyStart: "10/17/2018",
+        warrantyEnd: "04/28/2020"
+    },
+    {
+        itemName: 10,
+        serialNumber: "x6279934",
+        siteId: "606200",
+        installDate: "04/27/2018",
+        warrantyStart: "10/22/2018",
+        warrantyEnd: "04/13/2020"
+    },
+    {
+        itemName: 11,
+        serialNumber: "o8306990",
+        siteId: "375614",
+        installDate: "05/02/2018",
+        warrantyStart: "07/31/2018",
+        warrantyEnd: "08/09/2020"
+    },
+    {
+        itemName: 12,
+        serialNumber: "s2340601",
+        siteId: "872182",
+        installDate: "04/17/2018",
+        warrantyStart: "04/06/2018",
+        warrantyEnd: "10/13/2020"
+    },
+    {
+        itemName: 13,
+        serialNumber: "l6661909",
+        siteId: "522129",
+        installDate: "04/26/2018",
+        warrantyStart: "07/15/2018",
+        warrantyEnd: "04/22/2020"
+    },
+    {
+        itemName: 14,
+        serialNumber: "f4395779",
+        siteId: "644130",
+        installDate: "04/16/2018",
+        warrantyStart: "11/02/2018",
+        warrantyEnd: "04/09/2020"
+    },
+    {
+        itemName: 15,
+        serialNumber: "y3826868",
+        siteId: "380027",
+        installDate: "04/10/2018",
+        warrantyStart: "09/20/2018",
+        warrantyEnd: "01/27/2021"
+    },
+    {
+        itemName: 16,
+        serialNumber: "q1011540",
+        siteId: "671750",
+        installDate: "04/26/2018",
+        warrantyStart: "06/24/2018",
+        warrantyEnd: "05/10/2021"
+    },
+    {
+        itemName: 17,
+        serialNumber: "r1517771",
+        siteId: "676265",
+        installDate: "05/09/2018",
+        warrantyStart: "07/11/2018",
+        warrantyEnd: "11/02/2020"
+    },
+    {
+        itemName: 18,
+        serialNumber: "u0935941",
+        siteId: "908936",
+        installDate: "04/09/2018",
+        warrantyStart: "04/15/2018",
+        warrantyEnd: "09/06/2020"
+    },
+    {
+        itemName: 19,
+        serialNumber: "k0008316",
+        siteId: "085356",
+        installDate: "04/06/2018",
+        warrantyStart: "11/26/2018",
+        warrantyEnd: "03/07/2021"
+    },
+    {
+        itemName: 20,
+        serialNumber: "q8252988",
+        siteId: "572610",
+        installDate: "04/01/2018",
+        warrantyStart: "11/25/2018",
+        warrantyEnd: "05/09/2021"
+    },
+    {
+        itemName: 21,
+        serialNumber: "f5714835",
+        siteId: "524491",
+        installDate: "03/24/2018",
+        warrantyStart: "02/07/2019",
+        warrantyEnd: "02/11/2021"
+    },
+    {
+        itemName: 22,
+        serialNumber: "y7903090",
+        siteId: "398012",
+        installDate: "04/28/2018",
+        warrantyStart: "07/10/2018",
+        warrantyEnd: "05/24/2021"
+    },
+    {
+        itemName: 23,
+        serialNumber: "h4801388",
+        siteId: "480538",
+        installDate: "04/18/2018",
+        warrantyStart: "09/12/2018",
+        warrantyEnd: "06/20/2020"
+    },
+    {
+        itemName: 24,
+        serialNumber: "k7684334",
+        siteId: "093110",
+        installDate: "05/05/2018",
+        warrantyStart: "05/23/2018",
+        warrantyEnd: "10/17/2020"
+    },
+    {
+        itemName: 25,
+        serialNumber: "g3879095",
+        siteId: "606687",
+        installDate: "04/04/2018",
+        warrantyStart: "12/25/2018",
+        warrantyEnd: "04/10/2021"
+    },
+    {
+        itemName: 26,
+        serialNumber: "t9876815",
+        siteId: "088398",
+        installDate: "03/29/2018",
+        warrantyStart: "04/06/2018",
+        warrantyEnd: "06/14/2020"
+    },
+    {
+        itemName: 27,
+        serialNumber: "w6346746",
+        siteId: "607827",
+        installDate: "03/23/2018",
+        warrantyStart: "08/15/2018",
+        warrantyEnd: "05/24/2021"
+    },
+    {
+        itemName: 28,
+        serialNumber: "y7127592",
+        siteId: "212833",
+        installDate: "05/05/2018",
+        warrantyStart: "08/16/2018",
+        warrantyEnd: "05/04/2021"
+    },
+    {
+        itemName: 29,
+        serialNumber: "a9399861",
+        siteId: "708552",
+        installDate: "04/14/2018",
+        warrantyStart: "09/14/2018",
+        warrantyEnd: "11/25/2020"
+    },
+    {
+        itemName: 30,
+        serialNumber: "g8194352",
+        siteId: "901447",
+        installDate: "04/23/2018",
+        warrantyStart: "01/12/2019",
+        warrantyEnd: "06/05/2020"
+    },
+    {
+        itemName: 31,
+        serialNumber: "d6890730",
+        siteId: "379040",
+        installDate: "04/23/2018",
+        warrantyStart: "04/05/2018",
+        warrantyEnd: "06/06/2020"
+    },
+    {
+        itemName: 32,
+        serialNumber: "l0960029",
+        siteId: "141791",
+        installDate: "04/17/2018",
+        warrantyStart: "12/10/2018",
+        warrantyEnd: "04/03/2021"
+    },
+    {
+        itemName: 33,
+        serialNumber: "p0804650",
+        siteId: "052209",
+        installDate: "04/07/2018",
+        warrantyStart: "12/25/2018",
+        warrantyEnd: "05/21/2021"
+    },
+    {
+        itemName: 34,
+        serialNumber: "k3180697",
+        siteId: "654718",
+        installDate: "05/08/2018",
+        warrantyStart: "10/06/2018",
+        warrantyEnd: "07/27/2020"
+    },
+    {
+        itemName: 35,
+        serialNumber: "c3609139",
+        siteId: "923328",
+        installDate: "04/04/2018",
+        warrantyStart: "01/27/2019",
+        warrantyEnd: "08/24/2020"
+    },
+    {
+        itemName: 36,
+        serialNumber: "s3851437",
+        siteId: "470139",
+        installDate: "04/30/2018",
+        warrantyStart: "09/11/2018",
+        warrantyEnd: "09/02/2020"
+    },
+    {
+        itemName: 37,
+        serialNumber: "q6419560",
+        siteId: "148227",
+        installDate: "04/01/2018",
+        warrantyStart: "03/31/2018",
+        warrantyEnd: "06/28/2020"
+    },
+    {
+        itemName: 38,
+        serialNumber: "w0064432",
+        siteId: "451538",
+        installDate: "04/20/2018",
+        warrantyStart: "12/28/2018",
+        warrantyEnd: "03/16/2021"
+    },
+    {
+        itemName: 39,
+        serialNumber: "p4285644",
+        siteId: "482484",
+        installDate: "03/26/2018",
+        warrantyStart: "07/15/2018",
+        warrantyEnd: "07/10/2020"
+    },
+    {
+        itemName: 40,
+        serialNumber: "w4803408",
+        siteId: "256125",
+        installDate: "05/07/2018",
+        warrantyStart: "12/04/2018",
+        warrantyEnd: "07/16/2020"
+    },
+    {
+        itemName: 41,
+        serialNumber: "i4352558",
+        siteId: "832648",
+        installDate: "04/15/2018",
+        warrantyStart: "01/18/2019",
+        warrantyEnd: "06/24/2020"
+    },
+    {
+        itemName: 42,
+        serialNumber: "y3713381",
+        siteId: "291998",
+        installDate: "04/13/2018",
+        warrantyStart: "12/20/2018",
+        warrantyEnd: "09/09/2020"
+    },
+    {
+        itemName: 43,
+        serialNumber: "f6119617",
+        siteId: "370872",
+        installDate: "05/08/2018",
+        warrantyStart: "04/28/2018",
+        warrantyEnd: "05/05/2021"
+    },
+    {
+        itemName: 44,
+        serialNumber: "k4805386",
+        siteId: "119057",
+        installDate: "04/03/2018",
+        warrantyStart: "05/04/2018",
+        warrantyEnd: "09/29/2020"
+    },
+    {
+        itemName: 45,
+        serialNumber: "f7411519",
+        siteId: "582567",
+        installDate: "04/04/2018",
+        warrantyStart: "07/20/2018",
+        warrantyEnd: "04/29/2020"
+    },
+    {
+        itemName: 46,
+        serialNumber: "s4615038",
+        siteId: "830861",
+        installDate: "03/26/2018",
+        warrantyStart: "08/15/2018",
+        warrantyEnd: "04/21/2021"
+    },
+    {
+        itemName: 47,
+        serialNumber: "g1416687",
+        siteId: "185270",
+        installDate: "03/28/2018",
+        warrantyStart: "11/11/2018",
+        warrantyEnd: "05/08/2021"
+    },
+    {
+        itemName: 48,
+        serialNumber: "y2909905",
+        siteId: "377254",
+        installDate: "05/04/2018",
+        warrantyStart: "07/18/2018",
+        warrantyEnd: "09/06/2020"
+    },
+    {
+        itemName: 49,
+        serialNumber: "g9784148",
+        siteId: "356806",
+        installDate: "04/21/2018",
+        warrantyStart: "09/18/2018",
+        warrantyEnd: "10/03/2020"
+    },
+    {
+        itemName: 50,
+        serialNumber: "e3236637",
+        siteId: "361011",
+        installDate: "03/23/2018",
+        warrantyStart: "11/05/2018",
+        warrantyEnd: "07/21/2020"
+    },
+]
