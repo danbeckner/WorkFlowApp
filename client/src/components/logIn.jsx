@@ -7,6 +7,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
+// import the recaptcha key
+const recapKey = require("../clientSecrets.js");
+
 // add the font awesome icons into the library
 library.add(faSpinner);
 
@@ -15,9 +18,6 @@ library.add(faSpinner);
 const onChange = (value) => {
     console.log("Captcha value:", value);
 }
-
-// Public ReCAPTCHA key for authenticating user
-const recapKey = "6LclFJUUAAAAAA0_GmbXWfnAxzOoeZpYyWXgutNx";
 
 class LogIn extends Component {
     constructor(props) {

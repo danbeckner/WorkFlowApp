@@ -11,6 +11,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 const cors = require("cors");
+const dbRoute = require("./serverSecrets");
 
 // import the database schemas
 const User = require("./models/user");
@@ -27,9 +28,14 @@ const app = express();
 // create variable for using express.router
 const router = express.Router();
 
-// mongodb path
-// const dbRoute = "mongodb://127.0.0.1:27017/test"
-const dbRoute = "mongodb+srv://dbeckner:zaq11qazzaq11qaz@cluster0-jysrd.mongodb.net/test?retryWrites=true";
+
+/*
+const dbRoute is the collection path and is imported from the secrets.js file 
+secrets.js is included in gitignore file and not pushed to the git repo 
+due to the sensitive nature of the information
+the dbRoute is the mongodb connection string and can be retrieved from your collection settings
+*/
+
 
 // connect backend to database using mongoose middleware
 mongoose.connect(
