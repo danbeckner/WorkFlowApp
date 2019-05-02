@@ -98,27 +98,37 @@ export default class ViewInventory extends Component {
         // let installDate = new Date();
 
         // acios method for posting new item to the backend
-        axios.post("api/addItem", {
+        fetch("api/addItem", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             // grab the user input from the state and send to backend
-            itemName: itemName,
-            serialNumber: serialNumber,
-            installDate: installDate,
-            warrantyStart: warrantyStart,
-            warrantyEnd: warrantyEnd,
-            itemNotes: itemNotes
+            body: JSON.stringify({
+                itemName: itemName,
+                serialNumber: serialNumber,
+                installDate: installDate,
+                warrantyStart: warrantyStart,
+                warrantyEnd: warrantyEnd,
+                itemNotes: itemNotes
+            })
         })
-            .then(function (response) {
-                console.log(response);
+            .then(res => res.json())
+            .then(json => {
+                console.log('json', json);
+                if (json.success) {
+                    alert('Item added successfully. Please refresh the table.');
+                    console.log("success", json.success)
+                    return;
+                } else {
+                    alert(json.message);
+                    return;
+                }
             })
             .catch(function (error) {
                 console.log(error);
             })
-    };
-
+    }
     // function for reseting the form after submission
     resetForm = () => {
         document.getElementById('addItem').reset();
@@ -136,12 +146,16 @@ export default class ViewInventory extends Component {
             headers: {
                 'Content-Type': 'applications/json'
             }
-        }).then(console.log({ itemName: objItemToDelete }))
+        }).then(console.log({
+            itemName: objItemToDelete
+        }))
             .then(function (response) {
                 console.log(response);
+                alert("Item deleted successfully. Please refresh the table.");
             })
             .catch(function (error) {
                 console.log(error);
+                alert("Something went wrong. If the issue persists please contact the system administrator.");
             })
     };
 
