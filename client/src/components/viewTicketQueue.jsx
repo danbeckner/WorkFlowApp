@@ -95,6 +95,7 @@ export default class TicketQueue extends Component {
         })
             .then(function (response) {
                 console.log(response);
+                alert("Ticket successfully created. Please refresh the table.");
             })
             .catch(function (error) {
                 console.log(error);
@@ -126,6 +127,7 @@ export default class TicketQueue extends Component {
         })
             .then(function (response) {
                 console.log(response);
+                alert("Ticket successfully closed. Please refresh the table.");
             })
             .catch(function (error) {
                 console.log(error);
