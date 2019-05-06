@@ -37,5 +37,8 @@ __server.js__
 const dbRoute = require("./serverSecrets")
 ```
 
+## Contributing
+This project is not open for contributions.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
